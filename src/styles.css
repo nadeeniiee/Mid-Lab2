@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .card {
+    border-radius: 10px;
+    border: 1px solid #c8c8c8;
+  }
+
+  .table td {
+    vertical-align: middle;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+
+  .btn-dark {
+    background-color: #003366;
+    border-color: #003366;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
+  .btn-dark:hover {
+    background-color: #002240;
+    border-color: #002240;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .shadow-sm {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .bg-primary {
+    background-color: #003366 !important;
+  }
+</style>

@@ -1,0 +1,16 @@
+
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div class="col-md-5 mb-3">
+        <div class="card p-3">
+          <h3 class="text-primary">Add New Task:</h3>
+          <div class="d-flex align-items-center">
+            <div class="col-9">
+              <input class="form-control" type="text" name="taskName" id="taskName" [(ngModel)]="taskName" required>
+            </div>
+            <div class="col-3">
+              <button class="btn btn-dark w-100" (click)="addTask()">Add Task</button>
+            </div>
+          </div>
+        </div>
+      </div>
